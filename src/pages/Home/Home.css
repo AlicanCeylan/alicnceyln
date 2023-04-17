@@ -1,0 +1,35 @@
+/* --- MOBILE STYLES --- */
+
+.home .name {
+  font-size: 40px;
+}
+.home .description {
+  font-size: 18px;
+}
+
+.home .mediaIcons {
+  display: flex;
+  position: absolute;
+  left: 50px;
+  bottom: 20px;
+}
+
+/* --- MEDIA QUERIES --- */
+
+@media (min-width: 750px) {
+  .home .name {
+    font-size: 50px;
+  }
+
+  .home .description {
+    font-size: 28px;
+  }
+
+  .home .mediaIcons {
+    flex-direction: column;
+  }
+
+  .home .mediaIcons {
+    flex-direction: column;
+  }
+}
